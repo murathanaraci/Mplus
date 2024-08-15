@@ -1,0 +1,317 @@
+* {
+  font-family: Campton;
+}
+.btn-danger {
+  background-color: #ff4438;
+}
+.mainpage,
+.container {
+  max-width: 1728px;
+  padding: 0;
+  background-color: #f6f6f6;
+}
+
+/* nav */
+#tbutton {
+  height: 40px;
+  background-color: red;
+  border-radius: 100%;
+  padding: 10px;
+}
+
+/* header */
+div #eeebot {
+  width: 617.27px;
+  height: 134px;
+  gap: 0px;
+}
+div #eeebot h1 {
+  font-size: 56px;
+  font-weight: 625;
+  line-height: 67.2px;
+  text-align: left;
+}
+
+div #Struggling {
+  font-family: Campton;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 33.6px;
+  text-align: left;
+  width: 461px;
+  height: 170px;
+  gap: 0px;
+  opacity: 0px;
+  margin-top: 20px;
+}
+
+#firstcard {
+  width: 604px;
+  height: 600px;
+  top: 63px;
+  padding: 32px 0px 0px 0px;
+  margin-left: 120px;
+  gap: 24px;
+  border: none;
+  z-index: 10;
+}
+
+.card-header {
+  background-color: #ffff;
+  --bs-card-border-color: none;
+}
+.input-group p {
+  position: absolute;
+  left: 350px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+}
+#header-container {
+  background-image: linear-gradient(
+    102.68deg,
+    #ff4438 15.59%,
+    #3618d7 68.12%,
+    #c950e9 113.51%
+  );
+  height: 540px;
+  width: 100%;
+}
+
+#Send {
+  width: 201px;
+  height: 56px;
+  gap: 0px;
+  border-radius: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0%;
+}
+
+#caasimg {
+  width: 1296px;
+  height: 755px;
+  border-radius: 24px;
+}
+
+/* frame19 */
+#frame19-container {
+  width: 1488px;
+  height: 785px;
+  padding-top: 150px;
+  margin: auto;
+  background-color: #f6f6f6;
+}
+
+#card-1,
+#card-2,
+#card-3 {
+  font-family: Campton;
+  font-size: 36px;
+  font-weight: 625;
+  line-height: 43.2px;
+  text-align: left;
+  color: #002856;
+}
+/* frame-13 */
+#frame13-container {
+  display: grid;
+  width: 1488px;
+  margin: auto;
+  justify-content: center;
+  justify-items: center;
+}
+#f-13-h {
+  width: 571px;
+  height: 48px;
+  font-family: Campton;
+  font-size: 40px;
+  font-weight: 625;
+  line-height: 48px;
+  text-align: center;
+
+  color: #002856;
+}
+#f-13-p {
+  width: 766.68px;
+  height: 36px;
+  font-family: Campton;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
+
+  color: #002856;
+}
+#circle-1,
+#circle-2,
+#circle-3 {
+  width: 426px;
+  height: 426px;
+}
+
+.msg-img{
+    width: 149.99px;
+height: 128.11px;
+
+}
+
+
+
+
+#goodbye {width: 962.45px;
+    height: 36px;   
+    font-family: Campton;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;    
+  color: #002856;
+  padding-top: 50px;
+}
+
+
+
+@media (max-width: 767.98px) {
+  .mainpage,
+  .container {
+    width: 393px;
+    height: 40px;
+    padding: 0px 16px 0px 16px;
+    justify-content: center;
+  }
+
+  #Send {
+    width: 100%;
+    border-radius: 10px;
+    font-size: 14px;
+    padding: 8px 10px;
+  }
+  div #eeebot {
+    margin-top: 20px;
+    width: 370.48px;
+    height: 120px;
+    gap: 0px;
+  }
+  div #eeebot h1 {
+    font-family: Campton;
+    font-size: 33.61px;
+    font-weight: 625;
+    line-height: 40.33px;
+    text-align: left;
+  }
+  div #Struggling {
+    font-family: Campton;
+    font-size: 16.81px;
+    font-weight: 400;
+    line-height: 20.17px;
+    text-align: left;
+    width: 361px;
+    height: 80px;
+    gap: 0px;
+    opacity: 0px;
+  }
+
+  .input-group p {
+    display: none;
+  }
+
+  #firstcard {
+    width: 361px;
+    height: 650px;
+    margin-left: 15px;
+    gap: 24px;
+    border-radius: 16px;
+    top: 0;
+  }
+
+  #header-container {
+    background-image: linear-gradient(
+      102.68deg,
+      #ff4438 15.59%,
+      #3618d7 68.12%,
+      #c950e9 113.51%
+    );
+    width: 393px;
+    height: 760.19px;
+  }
+
+  #caasimg {
+    margin-left: 34px;
+    width: 358px;
+    height: 151px;
+    border-radius: 14px 14px 0px 0px;
+  }
+
+  #frame19-container {
+    width: 393px;
+    height: 1400px;
+    top: 898.19px;
+    gap: 0px;
+    opacity: 0px;
+  }
+
+  #card-1,
+  #card-2,
+  #card-3 {
+    font-family: Campton;
+    font-size: 20px;
+    font-weight: 625;
+    line-height: 24px;
+    text-align: left;
+    color: #002856;
+  }
+
+  #f-13-h {
+    width: 212px;
+    height: 76px;
+    font-family: Campton;
+    font-size: 30px;
+    font-weight: 625;
+    line-height: 38px;
+    text-align: center;
+    color: #002856;
+  }
+  #f-13-p {
+    width: 361px;
+    height: 58px;
+    font-family: Campton;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 29px;
+    text-align: center;
+    color: #002856;
+  }
+
+  #circle-1,
+  #circle-2,
+  #circle-3 {
+    width: 358px;
+    height: 358px;
+    margin-bottom: 15px;
+  }
+
+  .msg-img{
+    width: 121.89px;
+    height: 104.11px;
+}
+
+
+  #frame13-container {
+    display: block;
+    width: 361px;
+    height: 1431px;
+  }
+
+  #goodbye {width: 361px;
+    height: 87px;   
+    font-family: Campton;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 29px;
+    text-align: center;
+    color: #002856;
+    padding-top: 25px;
+  }
+}
