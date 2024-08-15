@@ -91,6 +91,7 @@ div #Struggling {
   justify-content: space-around;
   align-items: center;
   padding: 0%;
+  margin-top: 50px;
 }
 
 #caasimg {
@@ -219,6 +220,7 @@ div #Struggling {
     width: 100%;
     border-radius: 10px;
     font-size: 14px;
+    margin-top: 25px;
     padding: 8px 10px;
   }
   div #eeebot {
