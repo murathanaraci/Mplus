@@ -1,9 +1,7 @@
 * {
   font-family: Campton;
-  
-  
 }
-body{
+body {
   overflow-x: hidden;
   max-width: 100%;
 }
@@ -378,13 +376,82 @@ div #Struggling {
   padding: 99px 120px 99px 120px;
 }
 
-@media (max-width: 767.98px) {
+/* footer */
 
+.card-footer {
+  height: 420px;
+  background: #ff4438;
+  color: #ffffff;
+  margin: 0%;
+}
+
+#footer-top {
+  margin-top: 100px;
+}
+
+#footer-hr {
+  border: 2px solid #f9bc02;
+}
+#footer-info {
+  position: absolute;
+  bottom: 10px;
+  left: 48%;
+}
+#footer-footer {
+  width: 1488px;
+  margin: auto;
+}
+
+#show p {
+  display: none;
+  font-family: Campton;
+  font-size: 16px;
+  font-weight: 550;
+  line-height: 19.2px;
+  text-align: left;
+  width: 75px;
+  height: 19px;
+  top: 7364.44px;
+  left: 104.5px;
+  gap: 0px;
+  opacity: 0px;
+  color: #ffffff;
+}
+
+#br {
+  display: none;
+}
+#ready {
+  font-family: Campton;
+  font-size: 40px;
+  font-weight: 625;
+  line-height: 48px;
+  text-align: left;
+  color: #ffffff;
+}
+
+#wmplus {
+  width: 246.49px;
+  height: 70px;
+}
+
+#footer-footer-1 {
+  position: absolute;
+  padding-left: 0px;
+  left: 1200px;
+  bottom: 5px;
+}
+#footer-footer-2 {
+  position: absolute;
+  padding-left: 0px;
+  bottom: 5px;
  
-  .mainpage
-   {
+}
+
+@media (max-width: 767.98px) {
+  .mainpage {
     margin: auto;
-    max-width:393px ;
+    max-width: 393px;
     height: fit-content;
     justify-content: center;
   }
@@ -717,7 +784,6 @@ div #Struggling {
     line-height: 38px;
     text-align: center;
     color: #ff4438;
-    
   }
 
   #fr-46808 {
@@ -727,9 +793,110 @@ div #Struggling {
     height: 434px;
     padding: 0px;
   }
-
-  #footer{
+  #ready-div {
+    margin: auto;
+    margin-top: 50px;
+    width: 329px;
+    height: 190px;
+    gap: 24px;
+  }
+  #ready {
+    width: 329px;
+    height: 190px;
+    font-family: Campton;
+    font-size: 32px;
+    font-weight: 625;
+    line-height: 38.4px;
+    text-align: left;
+    color: #ffffff;
+  }
+  #br {
+    display: block;
+  }
+  #footer {
+    height: 700px;
     position: relative;
     bottom: 100px;
+  }
+
+  .card-footer {
+    height: 700px;
+    background: #ff4438;
+    color: #ffffff;
+    margin: 0%;
+  }
+
+  #footer-top {
+    margin-top: 100px;
+  }
+
+  #footer-hr {
+    border: 2px solid #f9bc02;
+  }
+  #footer-info {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    bottom: 23px;
+    left: 40%;
+  }
+  #footer-footer {
+    width: 1488px;
+    margin: auto;
+  }
+
+  #show {
+    display: flex;
+  }
+  #show p {
+    display: block;
+  }
+  #hide {
+    display: none;
+  }
+
+  #wmplus {
+    position: relative;
+    bottom: 50px;
+    width: 246.49px;
+    height: 70px;
+    margin: auto;
+    padding-left: 100px;
+  }
+  #socialmedia {
+    position: relative;
+    bottom: 250px;
+    left: 100px;
+  }
+
+  #information {
+    position: relative;
+    top: 130px;
+    left: 100px;
+  }
+
+  #information p {
+    margin-right: 200px;
+    font-family: Campton;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 35px;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  #footer-footer-1 {
+    position: absolute;
+    padding-left: 15px;
+    bottom: 20px;
+    right: 0;
+    left: 70px!important;
+    
+  }
+  #footer-footer-2 {
+    position: absolute;
+    padding-left: 50px;
+    bottom: 10px;
+    top: 0;
   }
 }
