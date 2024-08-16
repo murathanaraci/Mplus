@@ -1,8 +1,11 @@
 * {
   font-family: Campton;
+  
+  
 }
-body {
+body{
   overflow-x: hidden;
+  max-width: 100%;
 }
 
 .btn-danger {
@@ -168,7 +171,7 @@ div #Struggling {
   width: 127px;
   height: 124px;
   top: 80px;
-  left: 550px;
+  left: 565px;
   padding: 0;
 }
 #second-arrow {
@@ -376,13 +379,18 @@ div #Struggling {
 }
 
 @media (max-width: 767.98px) {
-  .mainpage,
-  .container {
-    width: 393;
-    height: 40px;
+
+ 
+  .mainpage
+   {
+    margin: auto;
+    max-width:393px ;
+    height: fit-content;
     justify-content: center;
   }
-
+  nav {
+    width: 393px;
+  }
   #mpluslogo {
     width: 105.38px;
     height: 29.94px;
@@ -585,9 +593,8 @@ div #Struggling {
 
   #frame13-container {
     position: relative;
-    left: 30px;
     display: block;
-    width: 361px;
+    width: 393px;
     height: 1300px;
   }
 
@@ -604,10 +611,9 @@ div #Struggling {
   }
 
   #fr-25 {
-    left: 18px;
     position: relative;
     bottom: 350px;
-    width: 358px;
+    width: 393px;
     margin-top: -50px;
     background-color: #ffff;
     height: 1262px;
@@ -621,12 +627,14 @@ div #Struggling {
     border-radius: 16px;
   }
   #fr-25-c {
+    width: 393px;
     margin: auto;
     display: flex;
     flex-direction: column;
   }
   #fr-24 {
-    width: 358px;
+    width: 393px;
+    margin: 0px;
     margin-top: -50px;
     background-color: #ffff;
     height: 1262px;
@@ -674,10 +682,11 @@ div #Struggling {
   }
 
   #fr-46807 {
+    position: relative;
+    bottom: 150px;
     width: 393px;
     height: 974px;
-    top: 5754.44px;
-    padding: 48px 16px 48px 16px;
+    padding: 0px 16px 0px 16px;
   }
 
   #fr-46807-h1 {
@@ -707,20 +716,20 @@ div #Struggling {
     font-weight: 625;
     line-height: 38px;
     text-align: center;
-    width: 313px;
-    height: 38px;
     color: #ff4438;
+    
   }
 
-  .fr-46807-h5-o {
-    margin: auto;
-    font-family: Campton;
-    font-size: 19px;
-    font-weight: 625;
-    line-height: 30px;
-    text-align: left;
-    width: 217px;
-    height: 60px;
-    color: #ff4438;
+  #fr-46808 {
+    position: relative;
+    bottom: 100px;
+    width: 393px;
+    height: 434px;
+    padding: 0px;
+  }
+
+  #footer{
+    position: relative;
+    bottom: 100px;
   }
 }
